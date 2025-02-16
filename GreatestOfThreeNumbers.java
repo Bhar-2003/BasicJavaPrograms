@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MaxOfThreeNumbers {
+public class GreatestOfThreeNumbers {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the First Number :");
