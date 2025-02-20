@@ -5,7 +5,8 @@ public class AmstrongNumber {
         // -> An Armstrong number is a positive m-digit number
         //    that is equal to the sum of the mth powers of their digits.
         // -> It is also known as PLUPERFECT, or PLUS PERFECT, or NARSISSISTIC Number.
-        // -> Example : 153: 13 + 53 + 33 = 1 + 125+ 27 = 153
+        // -> Example : 153: 1*3 + 5*3 + 3*3 = 1 + 125+ 27 = 153
+        // -> NOTE : 3 is multiplied because of 3 digits
         System.out.println("Enter the Number :");
         int num=sc.nextInt();
         int temp=num;
